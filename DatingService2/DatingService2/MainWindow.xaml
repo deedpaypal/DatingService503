@@ -1,0 +1,36 @@
+﻿<Window x:Class="DatingService2.MainWindow"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatingService2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="button" Content="Log In" HorizontalAlignment="Left" Height="20" Margin="140,224,0,0" VerticalAlignment="Top" Width="200" Click="button_Click"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="27" Margin="206,171,0,0" VerticalAlignment="Top" Width="134"/>
+        <TextBox x:Name="loginBox" HorizontalAlignment="Left" Height="27" Margin="206,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134" />
+        <Label x:Name="label" Content="Login" HorizontalAlignment="Left" Height="27" Margin="140,132,0,0" VerticalAlignment="Top" Width="61"/>
+        <Label x:Name="label1" Content="Password" HorizontalAlignment="Left" Height="29" Margin="140,169,0,0" VerticalAlignment="Top" Width="62" RenderTransformOrigin="0.548,0.904">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="1.048"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.786"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="regbutton" Content="Registration" HorizontalAlignment="Left" Margin="162,267,0,0" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.5,0.5" Height="32" Click="regbutton_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.514"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="label2" Content="At this place should be a &#xD;&#xA;counter-trigger, but..." HorizontalAlignment="Left" Height="77" Margin="199,41,0,0" VerticalAlignment="Top" Width="141"/>
+    </Grid>
+</Window>

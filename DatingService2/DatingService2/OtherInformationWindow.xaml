@@ -1,0 +1,31 @@
+﻿<Window x:Class="DatingService2.OtherInformationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+        xmlns:local="clr-namespace:DatingService2"
+        mc:Ignorable="d"
+        Title="OtherInformationWindow" Height="500" Width="500">
+    <Border>
+        <Grid>
+            <Label x:Name="city" Content="CITY" HorizontalAlignment="Left" Height="52" Margin="209,28,0,0" VerticalAlignment="Top" Width="65" RenderTransformOrigin="0.471,1.941" FontSize="22pt" FontFamily="Oswald"/>
+            <TextBox x:Name="citytextBox" HorizontalAlignment="Left" Height="30" Margin="105,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="272"/>
+            <Label x:Name="education" Content="EDUCATION" HorizontalAlignment="Left" Height="55" Margin="170,158,0,0" VerticalAlignment="Top" Width="139" RenderTransformOrigin="0.471,1.941" FontSize="22pt" FontFamily="Oswald"/>
+            <TextBox x:Name="educationtextBox" HorizontalAlignment="Left" Height="30" Margin="105,240,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="272"/>
+            <Label x:Name="photo" Content="Photo" HorizontalAlignment="Left" Height="57" Margin="208,286,0,0" VerticalAlignment="Top" Width="101" RenderTransformOrigin="0.471,1.941" FontSize="22pt" FontFamily="Oswald"/>
+           
+              
+                    <Button x:Name="btnOpenFile" Content="Open file" Height="31" Width="64" Margin="209,348,219,90" />
+              
+
+            <Button x:Name="otherInfButton" Content="DONE" HorizontalAlignment="Left" Height="34" Margin="170,408,0,0" VerticalAlignment="Top" Width="139" FontSize="14pt" FontFamily="Oswald" FontWeight="ExtraBold"  Click="otherInfButton_Click"/>
+
+
+
+
+
+
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,38 @@
+﻿<Window x:Class="DatingService2.Registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatingService2"
+        mc:Ignorable="d"
+        Title="Registration" Height="768" Width="950" ResizeMode="NoResize"
+        >
+    <Grid>
+        <TextBox x:Name="usernameBox" HorizontalAlignment="Left" Height="48" Margin="318,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" FontSize="18pt" FontFamily="Oswald" FontWeight="ExtraLight"/>
+        <PasswordBox x:Name="passwordBox" FontSize="18pt" HorizontalAlignment="Left" Height="48" Margin="318,192,0,0"  VerticalAlignment="Top" Width="322" />
+        <TextBox x:Name="firstNameBox" HorizontalAlignment="Left" Height="48" Margin="318,298,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" FontSize="18pt" FontFamily="Oswald" FontWeight="ExtraLight"/>
+        <TextBox x:Name="lastNameBox" HorizontalAlignment="Left" Height="48" Margin="318,397,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322" FontSize="18pt" FontFamily="Oswald" FontWeight="ExtraLight"/>
+
+        <Label x:Name="reglabel" Content="REGISTRATION" HorizontalAlignment="Center" Height="50" Margin="341,8,384,0" VerticalAlignment="Top" Width="219" RenderTransformOrigin="0.5,0.5" FontSize="24pt" FontFamily="Oswald">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.387"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="label" Content="Username" HorizontalAlignment="Left" Height="48" Margin="95,88,0,0" VerticalAlignment="Top" Width="174"  FontSize="16pt" FontFamily="Oswald"/>
+        <Label x:Name="label_Copy" Content="Password" HorizontalAlignment="Left" Height="48" Margin="95,192,0,0" VerticalAlignment="Top" Width="174"  FontSize="16pt" FontFamily="Oswald"/>
+        <Label x:Name="label_Copy1" Content="First name" HorizontalAlignment="Left" Height="48" Margin="95,307,0,0" VerticalAlignment="Top" Width="174"  FontSize="16pt" FontFamily="Oswald"/>
+        <Label x:Name="label_Copy2" Content="Last name" HorizontalAlignment="Left" Height="48" Margin="95,397,0,0" VerticalAlignment="Top" Width="174" RenderTransformOrigin="0.577,2.168"  FontSize="16pt" FontFamily="Oswald"/>
+        <Label x:Name="label_Copy3" Content="Sex" HorizontalAlignment="Left" Height="48" Margin="95,505,0,0" VerticalAlignment="Top" Width="174"  FontSize="16pt" FontFamily="Oswald"/>
+        <Label x:Name="label_Copy4" Content="Birthday" HorizontalAlignment="Left" Height="48" Margin="95,594,0,0" VerticalAlignment="Top" Width="174"  FontSize="16pt" FontFamily="Oswald"/>
+        <Button x:Name="regbutton" Content="Registration" HorizontalAlignment="Left" Height="29" Margin="318,675,0,0" VerticalAlignment="Top" Width="322" Background="White" BorderThickness="3" Click="button_Click"/>
+        <DatePicker x:Name="DatePicker" HorizontalAlignment="Left" Height="30" Margin="318,605,0,0" VerticalAlignment="Top" Width="189"/>
+        <RadioButton x:Name="Male" Content="Male" HorizontalAlignment="Left" Height="36" Margin="318,514,0,0" VerticalAlignment="Top" Width="77" FontSize="14pt" FontFamily="Oswald" FontWeight="ExtraLight"/>
+        <RadioButton x:Name="Female" Content="Female" HorizontalAlignment="Left" Height="36" Margin="559,514,0,0" VerticalAlignment="Top" Width="81" FontSize="14pt" FontFamily="Oswald" FontWeight="ExtraLight"/>
+
+    </Grid>
+</Window>

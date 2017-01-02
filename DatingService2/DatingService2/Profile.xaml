@@ -1,0 +1,25 @@
+﻿<Window x:Class="DatingService2.Profile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatingService2"
+        mc:Ignorable="d"
+        Title="Profile" Height="462" Width="647">
+    <Grid>
+        <Label x:Name="label" Content="OTHER INFORMATION" HorizontalAlignment="Left" Height="37" Margin="377,10,0,0" VerticalAlignment="Top" Width="243" FontSize="18pt" FontFamily="Oswald" FontWeight="DemiBold"/>
+        <TextBox x:Name="height" HorizontalAlignment="Left" Height="27" Margin="388,88,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="191"/>
+        <TextBox x:Name="weight" HorizontalAlignment="Left" Height="27" Margin="388,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <TextBox x:Name="phone" HorizontalAlignment="Left" Height="27" Margin="388,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="194" Margin="21,23,0,0" VerticalAlignment="Top" Width="180"/>
+        <Label x:Name="label1" Content="Height" HorizontalAlignment="Left" Height="27" Margin="313,88,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label x:Name="label1_Copy" Content="Weight" HorizontalAlignment="Left" Height="27" Margin="313,139,0,0" VerticalAlignment="Top" Width="70"/>
+        <Label x:Name="label1_Copy1" Content="Phone" HorizontalAlignment="Left" Height="27" Margin="313,190,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="0.576,3"/>
+        <Button x:Name="otherInformationButton" Content="UPDATE" HorizontalAlignment="Left" Height="26" Margin="388,249,0,0" VerticalAlignment="Top" Width="191" Background="White" BorderThickness="3" Click="otherInformationButton_Click"/>
+        <Button x:Name="personRequirements" Content="YOUR REQUIREMENTS" HorizontalAlignment="Left" Height="26" Margin="388,337,0,0" VerticalAlignment="Top" Width="191" Background="AliceBlue" BorderThickness="3" RenderTransformOrigin="0.366,0.577" Click="personRequirements_Click"/>
+        <Button x:Name="editOtherInformation" Content="EDIT INFORMATION" HorizontalAlignment="Left" Height="26" Margin="21,249,0,0" VerticalAlignment="Top" Width="180" Background="Wheat" BorderThickness="3" Click="editOtherInformation_Click"/>
+        <Label x:Name="label2" Content="79999999999" HorizontalAlignment="Left" Margin="388,217,0,0" VerticalAlignment="Top" Height="32" Width="103"/>
+        <Button x:Name="personOtherInformation" Content="ADD OTHER INFORMATION" HorizontalAlignment="Left" Height="26" Margin="21,337,0,0" VerticalAlignment="Top" Width="180" Background="AliceBlue" BorderThickness="3" RenderTransformOrigin="0.366,0.577" Click="personOtherInformation_Click" />
+
+    </Grid>
+</Window>
